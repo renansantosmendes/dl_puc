@@ -24,5 +24,5 @@ jobs:
 
         - name: Training model
           run: |
-            python python train.py
+            python train.py
 #            --tracking_uri ${{ secrets.TRACKING_URI}} --tracking_username ${{ secrets.TRACKING_USERNAME}} --tracking_password ${{ secrets.TRACKING_PASSWORD}} --registry_model_name ${{ secrets.REGISTRY_MODEL_NAME}}
